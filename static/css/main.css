@@ -1,0 +1,36 @@
+
+.header{
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-size: cover;
+  position: relative;
+  background-image: url(../img/group.png);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    position: relative;
+    margin-top: 310px;
+    margin-left: 40px;
+    border: none;
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px 40px;
+    border-radius: 23px;
+    background: #4390C3;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover,
+.btn:focus{
+    background: #28648C;
+}
+.btn:active{
+    background: #16374E;
+}
+
+.registration{
+    padding-top: 100px;
+}
